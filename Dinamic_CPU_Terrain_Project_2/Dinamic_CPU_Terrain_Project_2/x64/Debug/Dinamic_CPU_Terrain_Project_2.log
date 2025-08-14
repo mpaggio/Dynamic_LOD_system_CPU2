@@ -1,0 +1,36 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: la directory intermedia (x64\Debug\) contiene file condivisi da un altro progetto (CPU_Terrain_Project_2.vcxproj, LOD_Terrain_Project.vcxproj, LOD_Terrain_Project_2.vcxproj, OpenGL_4.6_Template.vcxproj). Tale condizione può comportare un comportamento di pulizia e ricompilazione non corretto.
+  geometryHandler.cpp
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\geometryHandler.cpp(179,39): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\geometryHandler.cpp(560,39): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\geometryHandler.cpp(619,51): warning C4267: '=': conversione da 'size_t' a '_Ty'. Possibile perdita di dati.
+          with
+          [
+              _Ty=int
+          ]
+  main.cpp
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(19,23): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(131,18): warning C4244: 'inizializzazione': conversione da 'float' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(156,104): warning C4244: 'argomento': conversione da 'float' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(176,59): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(198,57): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(221,57): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(232,40): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(411,25): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(567,143): warning C4305: 'argomento': troncamento da 'double' a 'float'
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(624,38): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(626,42): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(632,38): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(634,42): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(658,106): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(664,107): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(669,72): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(709,82): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(728,80): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(747,81): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(766,81): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(785,79): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(804,79): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(819,58): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\Dinamic_CPU_Terrain_Project_2\main.cpp(835,62): warning C4267: 'argomento': conversione da 'size_t' a 'GLsizei'. Possibile perdita di dati.
+  Generazione del codice in corso...
+  Dinamic_CPU_Terrain_Project_2.vcxproj -> C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_confronto_CPU2_Dinamic\Dinamic_CPU_Terrain_Project_2\x64\Debug\Dinamic_CPU_Terrain_Project_2.exe

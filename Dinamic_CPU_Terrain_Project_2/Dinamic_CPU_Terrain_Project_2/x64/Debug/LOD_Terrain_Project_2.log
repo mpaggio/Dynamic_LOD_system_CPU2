@@ -1,0 +1,15 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: la directory intermedia (x64\Debug\) contiene file condivisi da un altro progetto (LOD_Terrain_Project.vcxproj, OpenGL_4.6_Template.vcxproj). Tale condizione può comportare un comportamento di pulizia e ricompilazione non corretto.
+  utilities.cpp
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_2\LOD_Terrain_Project_2\LOD_Terrain_Project_2\utilities.cpp(8,15): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_2\LOD_Terrain_Project_2\LOD_Terrain_Project_2\utilities.cpp(33,17): warning C4244: 'inizializzazione': conversione da 'int' a 'float'. Possibile perdita di dati.
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_2\LOD_Terrain_Project_2\LOD_Terrain_Project_2\utilities.cpp(161,21): warning C4244: '=': conversione da 'int' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_2\LOD_Terrain_Project_2\LOD_Terrain_Project_2\utilities.cpp(162,21): warning C4244: '=': conversione da 'int' a 'T'. Possibile perdita di dati.
+          with
+          [
+              T=float
+          ]
+  LOD_Terrain_Project_2.vcxproj -> C:\Marco\UNIVERSITA\Tesi\Progetto_OpenGL_2\LOD_Terrain_Project_2\x64\Debug\LOD_Terrain_Project_2.exe
