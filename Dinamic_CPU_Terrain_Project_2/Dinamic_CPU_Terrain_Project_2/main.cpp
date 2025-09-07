@@ -488,7 +488,16 @@ int main() {
             float maxDist = 1.5f;
             int tessLevel = lodFromDistance(dist, minDist, maxDist, 6, 44);
 
-            generatePatchCPU(cpuHouseVertices1, cpuHouseIndices1, p0, p1, p2, p3, normal, get<2>(blocksData), houseDisplacement, 0.04f, tessLevel);
+            int vertsPerBlock = 8;
+            int segmentsPerBlock = 2; // quello che hai usato in generateBlocks
+            int patchesPerSegment = 4;            // solo facce laterali
+            int patchesPerBlock = patchesPerSegment * segmentsPerBlock;
+
+            int blockIndex = p / patchesPerBlock; // questo ti dà l'indice corretto del blocco
+            vector<vec3> blockVerts(get<2>(blocksData).begin() + blockIndex * vertsPerBlock,
+                get<2>(blocksData).begin() + (blockIndex + 1) * vertsPerBlock);
+
+            generatePatchCPU(cpuHouseVertices1, cpuHouseIndices1, p0, p1, p2, p3, normal, blockVerts, houseDisplacement, 0.04f, tessLevel);
         }
 
         for (size_t i = 0, p = 0; i < blocksPatchesB.size(); i += 12, ++p) { // 4 vertici * 3 componenti
@@ -509,7 +518,17 @@ int main() {
             float maxDist = 1.5f;
             int tessLevel = lodFromDistance(dist, minDist, maxDist, 6, 44);
 
-            generatePatchCPU(cpuHouseVertices2, cpuHouseIndices2, p0, p1, p2, p3, normal, get<2>(blocksData), houseDisplacement2, 0.04f, tessLevel);
+            int vertsPerBlock = 8;
+            int segmentsPerBlock = 2; // quello che hai usato in generateBlocks
+            int patchesPerSegment = 4;            // solo facce laterali
+            int patchesPerBlock = patchesPerSegment * segmentsPerBlock;
+            int numBlocksA = 24 / (patchesPerSegment * 2);
+
+            int blockIndexB = (p / patchesPerBlock) + numBlocksA;
+            vector<vec3> blockVertsB(get<2>(blocksData).begin() + blockIndexB * vertsPerBlock,
+                get<2>(blocksData).begin() + (blockIndexB + 1) * vertsPerBlock);
+
+            generatePatchCPU(cpuHouseVertices2, cpuHouseIndices2, p0, p1, p2, p3, normal, blockVertsB, houseDisplacement2, 0.04f, tessLevel);
         }
 
         MeshBuffers houseBuffers1 = INIT_VERTEX_BUFFERS(cpuHouseVertices1, cpuHouseIndices1);
@@ -538,7 +557,14 @@ int main() {
             float maxDist = 1.5f;
             int tessLevel = lodFromDistance(dist, minDist, maxDist, 6, 44);
 
-            generatePatchCPU(cpuMoldVertices, cpuMoldIndices, p0, p1, p2, p3, normal, get<2>(moldsData), grassDisplacement, 0.02f, tessLevel);
+            int vertsPerBlock = 8;
+            int patchesPerBlock = 6;            // solo facce laterali
+
+            int blockIndex = p / patchesPerBlock; // questo ti dà l'indice corretto del blocco
+            vector<vec3> moldsVerts(get<2>(moldsData).begin() + blockIndex * vertsPerBlock,
+                get<2>(moldsData).begin() + (blockIndex + 1) * vertsPerBlock);
+
+            generatePatchCPU(cpuMoldVertices, cpuMoldIndices, p0, p1, p2, p3, normal, moldsVerts, grassDisplacement, 0.02f, tessLevel);
         }
         MeshBuffers moldBuffers = INIT_VERTEX_BUFFERS(cpuMoldVertices, cpuMoldIndices);
 
